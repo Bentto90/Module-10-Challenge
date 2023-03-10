@@ -51,7 +51,6 @@ const generateTeam = team => {
         `;
     };
 
-    // create the html for interns
     const generateIntern = intern => {
         return `
                     <div class="card m-5 shadow p-0" style="width:300px">
@@ -97,8 +96,6 @@ const generateTeam = team => {
     return html.join("");
 
 }
-
-// export function to generate entire page
 module.exports = team => {
 
     return `<!DOCTYPE html>
