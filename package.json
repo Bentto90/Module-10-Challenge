@@ -1,0 +1,19 @@
+{
+  "name": "Object-Oriented-Programming-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "zest": "^0.1.3"
+  }
+}
